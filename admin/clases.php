@@ -1,0 +1,42 @@
+<?php
+include("Clases/class.MySQL_Clase.php");
+include("Clases/class.Concesionarios.php");
+include("Clases/class.Marcas.php");
+include("Clases/class.Usuarios.php");
+include("Clases/class.Cuerpos.php");
+include("Clases/class.Publicaciones.php");
+include("Clases/class.Fotos.php");
+include("Clases/class.Contactos.php");
+include("Clases/class.Bancos.php");
+include("Clases/class.Publicidad.php");
+include("Clases/class.Modelos.php");
+include("Clases/class.Confort.php");
+include("Clases/class.Dimensiones.php");
+include("Clases/class.Entretenimiento.php");
+include("Clases/class.Exterior.php");
+include("Clases/class.Motores.php");
+include("Clases/class.Seguridad.php");
+include("Clases/class.Transmisiones.php");
+include("Clases/class.Extras.php");
+include("Clases/class.Copyright.php");
+
+$obj_concesionarios = new Concesionarios();
+$obj_marcas = new Marcas();
+$obj_usuarios = new Usuarios();
+$obj_cuerpos = new Cuerpos();
+$obj_publicaciones = new Publicaciones();
+$obj_fotos = new Fotos();
+$obj_contactos = new Contactos();
+$obj_bancos = new Bancos();
+$obj_publicidad = new Publicidad();
+$obj_modelos = new Modelos();
+$obj_confort = new Confort();
+$obj_dimensiones = new Dimensiones();
+$obj_entretenimiento = new Entretenimiento();
+$obj_exterior = new Exterior();
+$obj_motores = new Motores();
+$obj_seguridad = new Seguridad();
+$obj_transmisiones = new Transmisiones();
+$obj_extras = new Extras();
+$obj_copyright = new Copyright();
+?>

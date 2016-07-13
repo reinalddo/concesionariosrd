@@ -1,0 +1,404 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*RESET*/
+html,body,div,ul,ol,form,li{margin:0;padding:0;}
+h1,h2,h3,h4,h5{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+img{border:0;}
+p,ul,ol{margin:0.5em 0;}
+ul,ol{padding-left:1em;}
+a, :visited { text-decoration:none;color:#333; outline:none; border:none;}
+a:hover { color:#666; }
+/*END RESET*/
+
+
+
+/* BASICO */
+
+.clearfix { clear:both;}
+
+
+
+/* END BASICO */
+
+
+
+/*  GENERAL  */
+
+
+#wrapper { width:1024px; height:100%; margin:0px auto;  padding:0px;}
+#header { width:978px; height:68px;  margin:0px auto;  padding:0px; background: url(../images/bgbarra.png) repeat-x; /* background:url(../images/afp-logo.jpg) no-repeat bottom right; */ overflow:visible;}
+
+
+/*  MENU*/
+
+
+ul.menu { height:30px; margin:0px; padding:10px 0 0; position:relative; bottom:0px;}
+ul.menu li { display:inline; height:40px; }
+ul.menu li a { font-size:18px; display:block; float:left; color:#999999; margin:10px 5px }
+ul.menu li a:hover{ color:#003399; }
+
+ul.menu li a.home-bt { background:url(../images/bt-home.png) no-repeat top left; width:30px; height:40px; margin:0px; padding:0px; display:block; float:left;}
+ul.menu li a.home-bt:hover { background:url(../images/bt-home-over.png) no-repeat;}
+ul.menu li a.home-bt-on {background:url(../images/bt-home-over.png) no-repeat top left; width:30px; height:40px; margin:0px; padding:0px; display:block; float:left;}
+
+ul.menu li a.ford-bt { background:url(../images/bt-ford.png) no-repeat top left; width:154px; height:40px; margin:0px; padding:0px; display:block; float:left;}
+ul.menu li a.ford-bt:hover { background:url(../images/bt-ford-over.png) no-repeat;}
+ul.menu li a.ford-bt-on {background:url(../images/bt-ford-over.png) no-repeat top left; width:154px; height:40px; margin:0px; padding:0px; display:block; float:left;}
+
+ul.menu li a.kia-bt { background:url(../images/bt-kia.png) no-repeat top left; width:48px; height:40px; margin:0px; padding:0px; display:block; float:left;}
+ul.menu li a.kia-bt:hover {background:url(../images/bt-kia-over.png) no-repeat;}
+ul.menu li a.kia-bt-on { background:url(../images/bt-kia-over.png) no-repeat top left; width:48px; height:40px; margin:0px; padding:0px; display:block; float:left;}
+
+ul.menu li a.mazda-bt { background:url(../images/bt-mazda.png) no-repeat top left; width:76px; height:40px; margin:0px; padding:0px; display:block; float:left;}
+ul.menu li a.mazda-bt:hover { background:url(../images/bt-mazda-over.png) no-repeat;}
+ul.menu li a.mazda-bt-on { background:url(../images/bt-mazda-over.png) no-repeat top left; width:76px; height:40px; margin:0px; padding:0px; display:block; float:left;}
+
+ul.menu li a.premium-bt { background:url(../images/bt-premium.png) no-repeat top left; width:84px; height:40px; margin:0px; padding:0px; display:block; float:left;}
+ul.menu li a.premium-bt:hover { background:url(../images/bt-premium-over.png) no-repeat;}
+ul.menu li a.premium-bt-on { background:url(../images/bt-premium-over.png) no-repeat top left; width:84px; height:40px; margin:0px; padding:0px; display:block; float:left;}
+
+
+
+/*  END MENU  */
+
+
+
+/*  HOME CONTENT  */
+
+.home-head { background:url(../images/home-head.jpg) no-repeat; width:978px; height:122px; margin:0px auto;}
+#home-content { width:978px; height:332px; margin:0px auto; padding:0px; overflow:hidden; /* background:url(../images/home-bg.jpg) no-repeat top center; */}
+/* #home-content a { float:left;} */
+.ford-home { margin:5px 0 0;}
+.kia-home { margin:5px 0 0;}
+.mazda-home { margin:5px 0 0;}
+.premium-home { margin:5px 0 0;}
+
+
+/*  END HOME CONTENT  */
+
+
+
+
+	/*  MODELOS GRAL.  */
+	
+	
+	.model-container { width:978px; height:100%; margin:0 auto; padding:20px 0;}
+	.model-container-B1 { width:585px; height:100%; margin:15px 0 0 25px; padding:5px 10px 5px 0; float:left; border-right:solid 1px #000;}
+	.model-container-B2 { width:393px; height:100%; margin:15px 0 0; padding:5px 0; float:left;}
+	
+	.model-row {	height:180px; padding:0px; margin: 10px auto;}
+	.precio-item{ text-align:center; }
+	.precio-item img{ max-width:75%; *width:75%; height:25px;  }
+	
+		/*  FORD  */
+		
+		
+		.ford-model-exped { width:195px; height:180px; float:left; background-image:url(../images/ford-expedition-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.ford-model-exped:hover { background-image:url(../images/ford-expedition-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.ford-model-taurus {width:195px; height:180px; float:left; background-image:url(../images/ford-taurus-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.ford-model-taurus:hover { background-image:url(../images/ford-taurus-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.ford-model-escape {width:195px; height:180px; float:left; background-image:url(../images/ford-escape-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.ford-model-escape:hover {background-image:url(../images/ford-escape-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.ford-model-edge { width:195px; height:180px; float:left; background-image:url(../images/ford-edge-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.ford-model-edge:hover { background-image:url(../images/ford-edge-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.ford-model-explorer {width:195px; height:180px; float:left; background-image:url(../images/ford-explorer-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.ford-model-explorer:hover { background-image:url(../images/ford-explorer-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.ford-model-ranger { width:195px; height:180px; float:left; background-image:url(../images/ford-ranger-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.ford-model-ranger:hover { background-image:url(../images/ford-ranger-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.ford-model-f150 {width:195px; height:180px; float:left; background-image:url(../images/ford-f150-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.ford-model-f150:hover { background-image:url(../images/ford-f150-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.ford-model-mustang {width:195px; height:180px; float:left; background-image:url(../images/ford-mustang-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.ford-model-mustang:hover { background-image:url(../images/ford-mustang-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.ford-model-focus {width:195px; height:180px; float:left; background-image:url(../images/ford-focus-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.ford-model-focus:hover { background-image:url(../images/ford-focus-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		
+		/*  END FORD  */
+
+		/*  MAZDA  */
+		
+		.mazda-model-2 {width:195px; height:180px; float:left; background-image: url(../images/mazda-2-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.mazda-model-2:hover {background-image: url(../images/mazda-2-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}			
+		.mazda-model-2sedan {width:195px; height:180px; float:left; background-image: url(../images/mazda-2-sedan-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.mazda-model-2sedan:hover {background-image: url(../images/mazda-2-sedan-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.mazda-model-3 {width:195px; height:180px; float:left; background-image: url(../images/mazda-3-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.mazda-model-3:hover {background-image: url(../images/mazda-3-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}	
+		.mazda-model-cx9 {width:195px; height:180px; float:left; background-image: url(../images/mazda-cx9-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.mazda-model-cx9:hover {background-image: url(../images/mazda-cx9-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}	
+		.mazda-model-5 {width:195px; height:180px; float:left; background-image: url(../images/mazda-5-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.mazda-model-5:hover {background-image: url(../images/mazda-5-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}	
+		.mazda-model-6 {width:195px; height:180px; float:left; background-image: url(../images/mazda-6-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.mazda-model-6:hover {background-image: url(../images/mazda-6-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}	
+		.mazda-model-cx7 {width:195px; height:180px; float:left; background-image: url(../images/mazda-cx7-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.mazda-model-cx7:hover {background-image: url(../images/mazda-cx7-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}	
+		.mazda-model-mx5 {width:195px; height:180px; float:left; background-image: url(../images/mazda-mx5-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.mazda-model-mx5:hover {background-image: url(../images/mazda-mx5-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}	
+		.mazda-model-bt50 {width:195px; height:180px; float:left; background-image: url(../images/mazda-bt50-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.mazda-model-bt50:hover {background-image: url(../images/mazda-bt50-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}	
+		.mazda-model-rx8 {width:195px; height:180px; float:left; background-image: url(../images/mazda-rx8-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.mazda-model-rx8:hover {background-image: url(../images/mazda-rx8-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}	
+		
+		/*  END MAZDA  */
+		
+		/*  KIA  */
+		
+		.kia-model-soul {width:195px; height:180px; float:left; background-image: url(../images/kia-soul-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.kia-model-soul:hover {background-image: url(../images/kia-soul-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.kia-model-rio {width:195px; height:180px; float:left; background-image: url(../images/kia-rio-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.kia-model-rio:hover {background-image: url(../images/kia-rio-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.kia-model-cerato {width:195px; height:180px; float:left; background-image: url(../images/kia-cerato-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.kia-model-cerato:hover {background-image: url(../images/kia-cerato-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.kia-model-sorento {width:195px; height:180px; float:left; background-image: url(../images/kia-sorento-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.kia-model-sorento:hover {background-image: url(../images/kia-sorento-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.kia-model-sportage {width:195px; height:180px; float:left; background-image: url(../images/kia-sportage-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.kia-model-sportage:hover {background-image: url(../images/kia-sportage-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.kia-model-picanto {width:195px; height:180px; float:left; background-image: url(../images/kia-picanto-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.kia-model-picanto:hover {background-image: url(../images/kia-picanto-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.kia-model-optima {width:195px; height:180px; float:left; background-image: url(../images/kia-optima-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.kia-model-optima:hover {background-image: url(../images/kia-optima-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.kia-model-cadenza {width:195px; height:180px; float:left; background-image: url(../images/kia-cadenza-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.kia-model-cadenza:hover {background-image: url(../images/kia-cadenza-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.kia-model-pregio {width:195px; height:180px; float:left; background-image: url(../images/kia-pregio-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.kia-model-pregio:hover {background-image: url(../images/kia-pregio-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.kia-model-k2700 {width:195px; height:180px; float:left; background-image: url(../images/kia-k2700-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.kia-model-k2700:hover {background-image: url(../images/kia-k2700-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		
+		/*  END KIA  */
+
+		/*  LINCOLN  */
+		
+		.lincoln-model-mks {width:195px; height:180px; float:left; background-image: url(../images/lincoln-mks-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.lincoln-model-mks:hover {background-image: url(../images/lincoln-mks-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.lincoln-model-mkt {width:195px; height:180px; float:left; background-image: url(../images/lincoln-mkt-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.lincoln-model-mkt:hover {background-image: url(../images/lincoln-mkt-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.lincoln-model-mkx {width:195px; height:180px; float:left; background-image: url(../images/lincoln-mkx-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.lincoln-model-mkx:hover {background-image: url(../images/lincoln-mkx-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.lincoln-model-navigator {width:195px; height:180px; float:left; background-image: url(../images/lincoln-navigator-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.lincoln-model-navigator:hover {background-image: url(../images/lincoln-navigator-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		
+		/*  END LINCOLN  */
+		
+		/*  JAGUAR  */
+		
+		.jaguar-model-xf {width:195px; height:180px; float:left; background-image: url(../images/jaguar-xf-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.jaguar-model-xf:hover {background-image: url(../images/jaguar-xf-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.jaguar-model-xk {width:195px; height:180px; float:left; background-image: url(../images/jaguar-xk-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.jaguar-model-xk:hover {background-image: url(../images/jaguar-xk-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		.jaguar-model-xj {width:195px; height:180px; float:left; background-image: url(../images/jaguar-xj-model-small-bg.png); background-repeat:no-repeat; background-position:center center;}
+			.jaguar-model-xj:hover {background-image: url(../images/jaguar-xj-model-small-bg-over.png); background-repeat:no-repeat; background-position:center center;}
+		
+		/*  END JAGUAR  */
+		
+	/*  END MODELOS GRAL.  */
+
+
+	/*  FORMULARIO  */
+	
+	.calc-container { padding:0 10px; margin:0 auto;}
+	.calc-wrap { margin:0 auto; background-color:#FFF; }
+	.calc-wrap td {height:15px; padding:2px 5px; vertical-align:top; }
+		table h3 { color:#333;  font-family: Helvetica, sans-serif; font-size:16px; float:left; margin-top:6px }
+		table h4 { color:#fff;  font-family: Helvetica, sans-serif; font-size:14px; float:left; }
+		
+		.box1 { background:#eee; padding:5px 10px; margin:10px 0px 0px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+		.box2 { background:#aaa; padding:5px 10px; margin:10px 0px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+		.box3 { background:#888; padding:5px 10px; margin:10px 0px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+		.box4 { background:#444; padding:5px 10px; margin:10px 0px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+		
+		ul.model-caract{float:left; margin:0 10px 0 0;}
+		ul.model-caract li { color:#000; font-weight:800; font-size:11px; font-family:Arial, Helvetica, sans-serif; }
+
+		td.image-holder-2 { background-image:url(../images/mazda-2-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-2sedan { background-image:url(../images/mazda-2-sedan-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-3, td.image-holder-3full { background-image:url(../images/mazda-3-big.jpg);  background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-cx9 { background-image:url(../images/mazda-cx9-big.jpg);  background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-5 { background-image:url(../images/mazda-5-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-6, td.image-holder-6sport { background-image:url(../images/mazda-6-big.jpg);  background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-cx7 { background-image:url(../images/mazda-cx7-big.jpg);  background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-mx5 { background-image:url(../images/mazda-mx5-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-bt50, td.image-holder-bt50full { background-image:url(../images/mazda-bt50-big.jpg);  background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-rx8 { background-image:url(../images/mazda-rx8-big.jpg);  background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-escape { background-image:url(../images/ford-escape-big.jpg);  background-position:left bottom;  background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-focus { background-image:url(../images/ford-focusse-big.jpg);  background-position:left bottom;  background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-focushb { background-image:url(../images/ford-focushb-big.jpg);  background-position:left bottom;  background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-expedition { background-image:url(../images/ford-expedition-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-taurus { background-image:url(../images/ford-taurus-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-rio { background-image:url(../images/kia-rio-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-cerato, td.image-holder-cerato-sport { background-image:url(../images/kia-cerato-big.jpg);  background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-soul { background-image:url(../images/kia-soul-big.jpg);  background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-sportage { background-image:url(../images/kia-sportage-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-sorento { background-image:url(../images/kia-sorento-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-edge, td.image-holder-edge-sel, td.image-holder-edge-sport { background-image:url(../images/ford-edge-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-explorer, td.image-holder-explorer-limited, td.image-holder-explorer-xlt { background-image:url(../images/ford-explorer-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-sport-trac { background-image:url(../images/ford-sport-trac-big.jpg);  background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-ranger { background-image:url(../images/ford-ranger-big.jpg);  background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-mustang { background-image:url(../images/ford-mustang-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-f150 { background-image:url(../images/ford-f150-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-mks { background-image:url(../images/lincoln-mks-big.jpg);  background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-mkt { background-image:url(../images/lincoln-mkt-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-mkx 2012 { background-image:url(../images/lincoln-mkx-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-navigator { background-image:url(../images/lincoln-navigator-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-xf { background-image:url(../images/jaguar-xf-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-xk { background-image:url(../images/jaguar-xk-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-xkr { background-image:url(../images/jaguar-xkr-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-xj { background-image:url(../images/jaguar-xj-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-picanto { background-image:url(../images/kia-picanto-big.jpg);  background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-optima { background-image:url(../images/kia-optima-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-cadenza { background-image:url(../images/kia-cadenza-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-pregio { background-image:url(../images/kia-pregio-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-k2700 { background-image:url(../images/kia-k2700-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+		td.image-holder-k2700-doble { background-image:url(../images/kia-k2700-doble-big.jpg); background-position:left bottom; background-repeat:no-repeat; width:495px; height:350px;}
+
+
+.form-select {overflow:hidden; position:relative; margin:0 0 0 3px; background: url("arrow.gif") no-repeat scroll 319px 5px;}
+.form-select select {text-align:center; font-size:18px; color:#000; width:200px; *width:200px; margin:0px; padding:0 0 0 5px;border:1px solid #bbb; float:right; -moz-border-radius:1px; -webkit-border-radius:1px;}
+
+.form-field { overflow:hidden; margin:0 0 0 3px; }
+.form-field input {text-align:right; font-size:18px; color:#000; width:200px; margin:5px 0px; padding:0 10px 3px 5px; border:1px solid #bbb; float:right; -moz-border-radius:1px; -webkit-border-radius:1px;}
+
+.solicitud-bt { width:137px; height:40px; background-color:transparent; text-indent:-9999px; vertical-align:middle; border:0px; font-size:0px; background-image:url(../images/solicit-bt.png); background-repeat:no-repeat; color:transparent; margin:3px }
+.solicitud-bt:hover {background-color:transparent; border:0px; background-image:url(../images/solicit-bt-over.png); background-repeat:no-repeat; cursor:pointer;}
+
+.cotiza-bt { width:137px; height:40px; background-color:transparent; vertical-align:middle; text-indent:-9999px; border:0px; font-size:0px; background-image:url(../images/cotiz-bt.png); background-repeat:no-repeat; color:transparent; margin:3px }
+.cotiza-bt:hover {background-color:transparent; border:0px; background-image:url(../images/cotiz-bt-over.png); background-repeat:no-repeat; cursor:pointer;}
+
+.contado-bt { width:137px; height:45px; background-color:transparent; border:0px; font-size:0px; background-image:url(../images/contado-bt.png); background-repeat:no-repeat; color:transparent; margin:3px }
+.contado-bt:hover {background-color:transparent; border:0px; background-image:url(../images/contado-bt-over.png); background-repeat:no-repeat; cursor:pointer;}
+
+
+input.valin{	border:1px solid #F92D2D;}
+.tab_bt{
+	display:inline-block;
+	width:300px;
+	float:left;
+}
+.tab_bt div{
+	margin:0px 5px 0 0;
+	display:inline-block;
+	padding:10px; 
+	background-color:#888;  
+	-moz-border-radius:5px; 
+	-webkit-border-radius:5px;
+	color:#444;
+	cursor:pointer;
+	white-space:normal;
+	vertical-align:top;
+	float:left;
+}
+.tab_bt div label{
+	display:inline-block;
+}
+.tab_bt div img{
+	height:30px;
+	display:inline-block;
+}
+.tab_bt div.sel{
+	background-color:#444;  
+	color:#FFFFFF;
+}
+.glow { text-align:center; border:1px #ccc solid; background:#fff; margin:0px; color:#000; -moz-border-radius:1px; -webkit-border-radius:1px;}
+.glow:focus {border:1px #00aeef solid;	background: #f6f6f6; color:#000;}
+.glow select {background: #fff; color:#000; border:0; overflow:hidden; }
+.glow select option {background: #fff; color:#000; border:0;}
+
+
+	/*  END FORMULARIO  */
+
+
+/*  END GENERAL.  */
+
+
+
+/*  FOOTER.  */
+
+
+#footer { 	width:974px; /* height:100px; */ margin:0 auto; padding:10px 2px 0; border-top:solid 1px #ddd; /* background:url(../images/footer-bg.jpg) no-repeat bottom center; */ position:relative;}
+#footer p {	color:#999; font-weight:normal; font-size:10px; font-family:Arial, Helvetica, sans-serif; text-align:left; margin:60px 0 0 325px;}
+
+.socialnet {height:40px; /* position:absolute; */ right:15px; bottom: 5px;}
+.fb { background:url(../images/bt-fb.png) no-repeat; text-indent:-9999px; width:40px; height:40px; display: inline-block;}
+.fb:hover {background:url(../images/bt-fb-over.png) no-repeat;}
+.twtr { background:url(../images/bt-twtr.png) no-repeat; text-indent:-9999px; width:40px; height:40px; display: inline-block;}
+.twtr:hover { background:url(../images/bt-twtr-over.png) no-repeat;}
+
+
+/*  END FOOTER.  */
+
+
+/*  CAPTION  */
+
+
+.boxgrid{ 
+				width: 195px; 
+				height: 180px;
+				float:left; 
+				overflow: hidden; 
+				position: relative; 
+			}
+				.boxgrid div.np-item{ 
+					position: absolute; 
+					top: 0; 
+					left: 0; 
+					border: 0; 
+					width: 100%; 
+
+				}
+				.boxgrid h3{
+					margin:5px 5px 0;
+					color: #D2D2D2; 
+					font-weight:bold;
+					font-size:14px; 
+				}
+				.boxgrid a{
+					margin:0px;
+					color: #F9F9F9;
+					padding: 0 3px; 
+					font-weight:bold;
+					font-size:14px; 
+				}
+				.boxgrid a:hover { color:#3682c1;}
+				.boxgrid ul li{
+					display:inline;
+					float:left;
+					
+				}
+				
+			.boxcaption{ 
+				float: left; 
+				position: absolute; 
+				background: #111;
+				-moz-border-radius-topright:10px; -webkit-border-top-right-radius:10px;
+				-moz-border-radius-topleft:10px; -webkit-border-top-left-radius:10px; 
+				width: 80%; 
+				opacity: .8; 
+				/* For IE 5-7 */
+				filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+				/* For IE 8 */
+				-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+ 			}
+			.boxcaption ul li{
+				margin-bottom:3px;
+			}
+			.boxcaption ul, .boxcaption ul li{ margin: inherit auto; }
+ 				.captionfull .boxcaption {
+ 					left: 12%;
+ 				}
+
+/*  END CAPTION  */
+
+
+/*  TIPSY  */
+
+
+.tipsy { padding: 5px; font-size: 10px; font-weight:800; opacity: 0.8; filter: alpha(opacity=80); background-repeat: no-repeat;  background-image: url(../images/tipsy.gif); }	
+  .tipsy-inner { padding: 5px 8px 5px 8px; background-color: black; color: white; max-width: 200px; text-align: center; }
+  .tipsy-inner { -moz-border-radius:3px; -webkit-border-radius:3px; }
+  .tipsy-south { background-position: bottom center; }
+
+
+/*  END TIPSY  */
+
+
+
+/*DENTSU CUSTOM STYLES*/
